@@ -20,6 +20,7 @@ export default {
   countries: {
     DE: 'Deutschland',
     US: 'United States',
+    AU: 'Australia',
   },
   formats: {
     number: {
