@@ -37,6 +37,12 @@ export default {
           currency: 'USD',
         },
       },
+      AU: {
+        currency: {
+          style: 'currency',
+          currency: 'AUD',
+        },
+      },
     },
     datetime: {
       US: {
@@ -47,6 +53,13 @@ export default {
         },
       },
       DE: {
+        short: {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+        },
+      },
+      AU: {
         short: {
           year: 'numeric',
           month: 'short',
